@@ -1,195 +1,198 @@
 body {
-    padding: 0%;
-    margin: 0%;
-    background-color: #9E2E56;
-    overflow-x: hidden;
-    background-image: linear-gradient( #9E2E56 0%, #9E2E56 71%, #fff 71%, #fff 91%,#fff 100%);
+  padding: 0%;
+  margin: 0%;
+  background-color: #9e2e56;
+  overflow-x: hidden;
+  background-image: linear-gradient(
+    #9e2e56 0%,
+    #9e2e56 71%,
+    #fff 71%,
+    #fff 91%,
+    #fff 100%
+  );
 }
 header {
-    transform: translateY(-20px);
-    background-size: cover;
-    background-image: url(Images/tbilisi_color.jpg);
-
-    background-repeat: no-repeat;
-    height: 10vh;
-    width: 100%;
+  transform: translateY(-20px);
+  background-size: cover;
+  background-image: url(Images/tbilisi_color.jpg);
+  background-repeat: no-repeat;
+  height: 10vh;
+  width: 100%;
 }
 header menu {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
 }
 header menu ul {
-    display: flex;
-    gap: 50px;
-    z-index: 999;
-
+  display: flex;
+  gap: 50px;
+  z-index: 999;
 }
-header menu ul li{
-    list-style: none;
-    z-index: 999;
+header menu ul li {
+  list-style: none;
+  z-index: 999;
 }
 header menu ul li a {
-    text-decoration: none;
-    color: #9E2E56;
-    font-size: 24px;
-    font-family: 'Belanosima', sans-serif;
-    transition: 0.5s;
+  text-decoration: none;
+  color: #9e2e56;
+  font-size: 24px;
+  font-family: "Belanosima", sans-serif;
+  transition: 0.5s;
 }
 header menu ul li a:hover {
-    color: #9E2E56;
-    font-size: 29px;
+  color: #9e2e56;
+  font-size: 29px;
 }
 .whyvisit {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .whyvisit .visitge .title img {
-    width: 600px;
-    height: 300px;
-    object-fit: cover;
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
 }
 .whyvisit .visitge {
-    width: 100%;
-    height: 200px;
-    transform: translateY(-20px);
-    background-color: #ffffff;
+  width: 100%;
+  height: 200px;
+  transform: translateY(-20px);
+  background-color: #ffffff;
 }
 .whyvisit .visitge .title {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    gap: 200px;
-    margin-top: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  gap: 200px;
+  margin-top: 200px;
 }
 .whyvisit .visitge .title h1 {
-    font-family: 'Cabin', sans-serif;
-    font-size: 56px;
-    color: #9E2E56;
+  font-family: "Cabin", sans-serif;
+  font-size: 56px;
+  color: #9e2e56;
 }
 .text {
-    font-family: 'Cabin', sans-serif;
-    font-size: 56px;
-    color: #9E2E56;
-    border-right: 5px solid;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: 
-        typing 2s steps(28), 
-        cursor .4s step-end infinite alternate ;
+  font-family: "Cabin", sans-serif;
+  font-size: 56px;
+  color: #9e2e56;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(28), cursor 0.4s step-end infinite alternate;
 }
 @keyframes cursor {
-    50% { border-color: transparent;}
+  50% {
+    border-color: transparent;
+  }
 }
 @keyframes typing {
-    from {width: 0 }
+  from {
+    width: 0;
+  }
 }
 .didu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 580px;
-    font-family: 'Cabin', sans-serif;
-    font-size: 25px;
-    gap: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 580px;
+  font-family: "Cabin", sans-serif;
+  font-size: 25px;
+  gap: 200px;
 }
 .didu p {
-    width: 700px;
-    position: relative;
-    color: white;
+  width: 700px;
+  position: relative;
+  color: white;
 }
 .didu img {
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
 }
 .mainscene {
-    width: 100%;
-    background-color: white;
-    margin-top: 200px;
-    
+  width: 100%;
+  background-color: white;
+  margin-top: 200px;
 }
 .mainscene .cont {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .mainscene .cont .box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 200px;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 200px;
+  justify-content: center;
 }
-.mainscene .cont .box .title h1{
-    width: 700px;
-    color: #9E2E56;
-    font-family: 'Belanosima', sans-serif;
-    font-size: 24px;
-
+.mainscene .cont .box .title h1 {
+  width: 700px;
+  color: #9e2e56;
+  font-family: "Belanosima", sans-serif;
+  font-size: 24px;
 }
-.mainscene .cont .box .title p{
-    color: #9E2E56;
-    width: 700px;
-    font-family: 'Poppins', sans-serif;
+.mainscene .cont .box .title p {
+  color: #9e2e56;
+  width: 700px;
+  font-family: "Poppins", sans-serif;
 }
 .mainscene .cont .box div img {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
 }
 footer {
-    margin-top: 150px;
-    width: 100%;
-    height: 400px;
-    background-color: #9E2E56;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 150px;
+  width: 100%;
+  height: 400px;
+  background-color: #9e2e56;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-footer ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
 }
-footer ul li{
-    list-style: none;
-    
+footer ul li {
+  list-style: none;
 }
 footer h1 {
-    font-family: 'Cabin', sans-serif;
-    font-size: 46px;
-    color: #ffffff;
+  font-family: "Cabin", sans-serif;
+  font-size: 46px;
+  color: #ffffff;
 }
-footer ul li a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 23px;
-    font-family: 'Cabin', sans-serif;
-    transition: 0.5s;
+footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 23px;
+  font-family: "Cabin", sans-serif;
+  transition: 0.5s;
 }
-footer ul li a:hover{
-    font-size: 29px;
+footer ul li a:hover {
+  font-size: 29px;
 }
 footer ul li img {
-    width: 600px;
-    height: 300px;
-    object-fit: cover;
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
 }
 footer ul li div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 svg {
-    transform: translateY(160px);
+  transform: translateY(160px);
 }
