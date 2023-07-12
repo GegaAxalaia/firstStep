@@ -103,6 +103,7 @@ header menu ul li a:hover {
 .cont_facts .box img {
   width: 500px;
   height: 300px;
+  transition-delay: 0.2s;
 }
 .cont_facts .box img:hover {
   width: 502px;
